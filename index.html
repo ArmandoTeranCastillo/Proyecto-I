@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="fStore">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Amazon para Hippies</title>
+    <link rel="icon" type="image/png" href="./images/bck/p-diamond.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.js"></script>
+    <!--Framework Angular JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.26/angular-ui-router.min.js"></script>
+    <!--Librería UI Router del framework Angular JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.28/stateEvents.js"></script>
+    <!--Librería stateEvents de UI Router-->
+    <!--Framework Angular JS-->
+    <link
+      rel="stylesheet"
+      text="text/css"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
+    />
+    <!-- Libreria Material Icons -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+    />
+    <!--Libreria Font Awesome -->
+    <link rel="stylesheet" href="./css/material-kit.css" />
+    <!--Implementar librería sin pedir verificación -->
+    <link rel="stylesheet" href="css/style1.css" />
+  </head>
+
+  <body
+    style="font-family: 'Trebuchet MS', sans-serif; background-color: black"
+  >
+    <!--Renderizar todas las direcciones internas (templates) de la página-->
+    <!--Contiene las etiquetas con las directivas y las trata como
+    estructuras diferentes-->
+    <div class="wrapper">
+      <navbar></navbar>
+      <div ui-view></div>
+      <footerb></footerb>
+    </div>
+
+    <!--Importar Dependencias Script de Angular JS fStore-->
+    <script src="js/app.js"></script>
+    <script src="js/controllers/landingController.js"></script>
+    <script src="js/controllers/appController.js"></script>
+    <script src="js/controllers/productsController.js"></script>
+    <script src="js/controllers/productController.js"></script>
+
+    <!--Importar Directivas JS-->
+    <script src="js/directives/navbar.js"></script>
+    <script src="js/directives/footer.js"></script>
+    <script src="js/directives/gallery.js"></script>
+    <script src="js/directives/panels.js"></script>
+    <script src="js/directives/specsTab.js"></script>
+    <script src="js/directives/reviewTab.js"></script>
+    <script src="js/directives/descriptionTab.js"></script>
+    <script src="js/directives/products-list.js"></script>
+    <script src="js/directives/ad.js"></script>
+
+    <!--Filtros de Angular JS-->
+    <script src="js/filters/range.js"></script>
+
+    <!--Importar archivos JS-->
+    <script src="./js/init/jquery.min.js"></script>
+    <script src="./js/init/popper.min.js"></script>
+    <script src="./js/init/bootstrap-material-design.min.js"></script>
+    <script src="./js/init/moment.min.js"></script>
+    <script src="./js/init/bootstrap-datetimepicker.js"></script>
+    <script src="./js/init/nouislider.min.js"></script>
+    <script src="./js/init/material-kit.js"></script>
+  </body>
+</html>

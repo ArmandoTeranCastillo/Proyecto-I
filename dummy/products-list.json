@@ -1,0 +1,32 @@
+{
+  "sold": [
+    {
+      "id": "535",
+      "name": "MSI B450 Plus",
+      "img": "https://m.media-amazon.com/images/I/61mCPqoP6bL._AC_.jpg",
+      "price": "4500$",
+      "plan": "12*375$ meses sin intereses"
+    },
+    {
+      "id": "536",
+      "name": "MSI B450 Plus",
+      "img": "https://m.media-amazon.com/images/I/61mCPqoP6bL._AC_.jpg",
+      "price": "4500$",
+      "plan": "12*375$ meses sin intereses"
+    },
+    {
+      "id": "537",
+      "name": "MSI B450 Plus",
+      "img": "https://m.media-amazon.com/images/I/61mCPqoP6bL._AC_.jpg",
+      "price": "4500$",
+      "plan": "12*375$ meses sin intereses"
+    },
+    {
+      "id": "538",
+      "name": "MSI B450 Plus",
+      "img": "https://m.media-amazon.com/images/I/61mCPqoP6bL._AC_.jpg",
+      "price": "4500$",
+      "plan": "12*375$ meses sin intereses"
+    }
+  ]
+}
