@@ -27,7 +27,7 @@
 
       <li
         class="list-group-item"
-        ng-repeat="p in prods.products | filter: products"
+        ng-repeat="p in prods.products | filter: products | orderBy: 'solded':true"
         ng-click="prods.go(p._id)"
       >
         <div class="media align-items-lg-center flex-column flex-lg-row">
