@@ -1,114 +1,162 @@
 {
-    "gems": [
+  "gems": [
+    {
+      "_id": "7dvk29wd7ShnQqLRQ",
+      "name": "MSI B450 Plus",
+      "solded": 526,
+      "description": "MSI B450 B450 PLUS Socket AM4 ATX Motherboard for AMD Ryzen Processor",
+      "long_description": "Esta placa base MSI GAMING es compatible con todos los estándares de almacenamiento más recientes. Esto le permite conectar cualquier dispositivo de almacenamiento ultrarrápido, lo que le da beneficios en el juego. Comienza partidas más rápido, carga niveles más rápido y tiene una ventaja real sobre tus enemigos. Acerca de este artículo: Ports: 2 x USB2.0, 2 x USB3.0 Type-A, 2 x USB3.1 Type-A, 1 x Ethernet LAN (RJ-45), 1 x PS/2, 1 x HDMI, 1 x DVI-D;Backed by 3 years manufacturers warranty;64GB Dual DDR4-SDRAM;ATX form factor;Chipset: AMD B450",
+      "price": 4500,
+      "plan": "12*375$ meses sin intereses",
+      "canPurchase": true,
+      "favorite": true,
+      "sizes": ["large", "medium", "small"],
+      "specs": {
+        "mark": "MSI",
+        "factory": "MSI COMPUTER",
+        "power": "95W",
+        "dimen": "30.5 x 24.4 x 3 cm; 940 g"
+      },
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/61VoIufPIpL._AC_SL1000_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/71O3IKrG8iL._AC_SL1239_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/71RH%2BCMgaGL._AC_SL1283_.jpg"
+      ],
+      "reviews": [
         {
-            "_id":"7dvk29wd7ShnQqLRQ",
-            "name": "Azurite",
-            "description": "Some gems have hidden qualities beyond their luster, beyond their shine... Azurite is one of those gems.",
-            "long_description":"Some gems have hidden qualities beyond their luster, beyond their shine... Azurite is one of those gems.",
-            "price": 110.50,
-            "canPurchase": true,
-            "favorite":true,
-            "sizes":["large", "medium", "small"],
-            "specs": {
-                "faces": 14,
-                "color": "#CCC",
-                "rarity": 7,
-                "shine": 8
-            },
-            "images": [
-                "images/gems/gem-02.gif",
-                "images/gems/gem-05.gif",
-                "images/gems/gem-09.gif"
-            ],
-            "reviews": [
-                {
-                    "stars": 5,
-                    "body": "I love this gem!",
-                    "author": "joe@example.org",
-                    "createdOn": 1397490980837
-                },
-                {
-                    "stars": 1,
-                    "body": "This gem sucks.",
-                    "author": "tim@example.org",
-                    "createdOn": 1397490980837
-                }
-            ]
+          "stars": 5,
+          "body": "Ordenado esto para acompañar a un Ryzen 5 2600x, Llegué ayer y lo tenía en funcionamiento dentro de un par de horas después de limpiar las cosas viejas de mi PC caso etc La placa es agradable y se ve mucho mejor que las fotos. No tuvo problemas trabajando con mi 2600x y Corsair Vengeance LPX 16gb ddr4 3000mz aunque tuve que ir a la BIOS y cambiar la frecuencia de RAM para que coincida con las velocidades de mi RAM, ya que se registró como 2166mhz al principio, pero esto es súper fácil de hacer y eso me lleva a mi siguiente punto la Bios para esta placa es genial y realmente fácil de usar, es la primera BIOS que he utilizado que permite el soporte del mouse: P (han pasado unos años desde mi última actualización) pero poder hacer clic y arrastrar órdenes de arranque de la unidad alrededor, etc fue una brisa. ",
+          "author": "joe@example.org",
+          "createdOn": 1397490980837
         },
         {
-            "_id":"Tqt4NDxthgR7HKBq7",
-            "name": "Bloodstone",
-            "description": "Origin of the Bloodstone is unknown, hence its low value. It has a very high shine and 12 sides, however.",
-            "long_description":"loremsdfsdfksjhbfs",
-            "price": 22.90,
-            "canPurchase": true,
-            "favorite":true,
-            "sizes":["large", "medium", "small"],
-            "specs": {
-                "faces": 12,
-                "color": "#EEE",
-                "rarity": 6,
-                "shine": 9
-            },
-            "images": [
-                "images/gems/gem-01.gif",
-                "images/gems/gem-03.gif",
-                "images/gems/gem-04.gif"
-            ],
-            "reviews": [
-                {
-                    "stars": 3,
-                    "body": "I think this gem was just OK, could honestly use more shine, IMO.",
-                    "author": "JimmyDean@example.org",
-                    "createdOn": 1397490980837
-                },
-                {
-                    "stars": 4,
-                    "body": "Any gem with 12 faces is for me!",
-                    "author": "gemsRock@example.org",
-                    "createdOn": 1397490980837
-                }
-            ]
-        },
-        {
-            "_id":"iuLTbSuW3n43wiXGr",
-            "name": "Zircon",
-            "description": "Zircon is our most coveted and sought after gem. You will pay much to be the proud owner of this gorgeous and high shine gem.",
-            "price": 1100,
-            "favorite":false,
-            "long_description":"loremsdfsdfksjhbfs",
-            "sizes":["large", "medium", "small"],
-            "specs": {
-                "faces": 6,
-                "color": "#000",
-                "rarity": 2,
-                "shine": 70
-            },
-            "images": [
-                "images/gems/gem-06.gif",
-                "images/gems/gem-07.gif",
-                "images/gems/gem-10.gif"
-            ],
-            "reviews": [
-                {
-                    "stars": 1,
-                    "body": "This gem is WAY too expensive for its rarity value.",
-                    "author": "turtleguyy@example.org",
-                    "createdOn": 1397490980837
-                },
-                {
-                    "stars": 1,
-                    "body": "BBW: High Shine != High Quality.",
-                    "author": "LouisW407@example.org",
-                    "createdOn": 1397490980837
-                },
-                {
-                    "stars": 1,
-                    "body": "Don't waste your rubles!",
-                    "author": "nat@example.org",
-                    "createdOn": 1397490980837
-                }
-            ]
+          "stars": 1,
+          "body": "Así que tan pronto como abrí la caja para esta placa base la placa trasera de la CPU se cayó, y cuando empecé a tratar de atornillar el disipador de calor stock, en los agujeros de la placa trasera (tenía el mobo descansando en la parte superior de la placa trasera, en la caja de mobo) una de las esquinas simplemente no atornillaría, no importa lo duro que lo intenté. Pensando que era el disipador de calor, recogí un enfriador después del mercado, que también se atornilla en la placa trasera de la CPU stock. Exactamente el mismo problema, exactamente en el mismo tornillo de esquina de dicho disipador de calor, de nuevo simplemente no se atornilla incluso con una cantidad justa de presión que se aplica. Con 3 de 4 agujeros atornillados correctamente, pensé que daría arrancar el sistema una oportunidad, sólo para comprobar que todavía funcionaba. Los fans comenzaron a girar hacia arriba, la luz se encendió pero mi monitor estaba en blanco, y una luz de advertencia de CPU roja se muestra en el mobo. Intenté volver a colocar la CPU y volver a poner el disipador térmico. El mismo problema persistía al intentar arrancar. Estaba deseando actualizar a ryzen, pero esto arruinó completamente las cosas para mí, así que volvamos a mi viejo i7 4770k y enviando todo de vuelta para un reembolso ahora.",
+          "author": "tim@example.org",
+          "createdOn": 1397490980837
         }
-    ]
+      ]
+    },
+    {
+      "_id": "Tqt4NDxthgR7HKBq7",
+      "name": "GTX 1660 Ti",
+      "solded": 639,
+      "description": "GIGABYTE GeForce GTX 1660 Ti Windforce OC 6G 192-bit GDDR6 DisplayPort 1.4 HDMI 2.0B con Windforce 2X sistema de refrigeración tarjetas gráficas - Gv-N166TWF2OC-6GD",
+      "long_description": "Especificaciones Mfr Número de pieza: GV-N166TWF2OC-6GD Chipset: NVIDIA GeForce GTX 1660 Ti Core Reloj: 1845 MHz (tarjeta de referencia es 1770 MHz) Memoria de vídeo: 6 GB GDDR6 Reloj de memoria: 12000 MHz Interfaz de memoria: 192 bit Ancho de banda de memoria: 288 GB/s Bus: PCI-Express 3.0 x16 CUDA Cores: 1536 RAMDAC: 400 MHz Max. Resolución: 7680 x 4320, compatible con 4 monitores de pantalla: entrada: 1 conector de alimentación de 8 pines. Salida: HDMI, 3 puertos de visualización térmicos: Fansink (ventiladores duales). Dimensiones (anch. x alt. x prof.): 4.747 x 10.429 x 1.591 in. Compatible con tarjetas de vídeo: NVIDIA G-sync Technology NVIDIA G-sync HDR Technology Microsoft DirectX 12 y OpenGL 4.5 450W.",
+      "price": 4200,
+      "plan": "12*350$ meses sin intereses",
+      "canPurchase": true,
+      "favorite": true,
+      "sizes": ["large", "medium", "small"],
+      "specs": {
+        "mark": "Gigabyte",
+        "factory": "Gigabyte",
+        "power": "450w",
+        "dimen": "26.5 x 12.1 x 4 cm; 450g"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/61qnfFDlCBL.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/81Vl8AMbo3L._AC_SL1500_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/71QX3esRKbL._AC_SL1500_.jpg"
+      ],
+      "reviews": [
+        {
+          "stars": 3,
+          "body": "Normalmente no compro productos gigabyte, pero con mi pequeña compilación de factor de forma ITX no pude verificar ninguna otra tarjeta, aceptar la tarjeta gigabyte, encajaría (ajuste muy ajustado en la parte delantera). La tarjeta funciona lo suficientemente bien Veo un montón de cuellos de botella entre ella y mi 2700x (GPU alrededor del 94%) No estoy seguro de si esto es solo por el chip 1660 TI o por la placa hecha gigabyte, pero por ahora parece hacer el trabajo razonablemente bien. Puedo obtener velocidades de fotogramas hasta los 140 y los 160 en algunos títulos antiguos y alrededor de 100 en los más nuevos. Puedo jugar durante unas horas antes de tener que apagar el juego y relanzar para limpiar el cuello de botella es una molestia, pero esta tarjeta es un lugar temporal para cuando puedo conseguir algo mejor.",
+          "author": "JimmyDean@example.org",
+          "createdOn": 1397490980837
+        },
+        {
+          "stars": 4,
+          "body": "dos tarjetas, que varían en rendimiento entre sí en un 10%.. y son muy grandes para lo que son.. buena oferta a la venta, buen valor, pero podría haber elegido ir con un 2070 o esperar y comprar dos 2080 en su lugar... sólo vale la pena si usted no está demasiado preocupado... Tengo dos de ellos alimentando 2 x 4k más 2 x 1080p monitores en una cuadrícula 2x2.",
+          "author": "gemsRock@example.org",
+          "createdOn": 1397490980837
+        }
+      ]
+    },
+    {
+      "_id": "iuLTbSuW3n43wiXGr",
+      "name": "Coirsair 750W",
+      "solded": 104,
+      "description": "Corsair CX Series 750 W 80 Plus Bronce, CV, no Modular, 80+ Bronce, 550 Vatios",
+      "price": 1500,
+      "plan": "12*125$ meses sin intereses",
+      "favorite": false,
+      "long_description": "Las fuentes de alimentación CV de CORSAIR son ideales para alimentar la PC de su nuevo hogar u oficina, con la eficiencia 80 PLUS Bronze asigurada para entregar continuamente potencia completa a su sistema. Un ventilador de enfriamiento controlado térmicamente de 120 mm mantiene el ruido del ventilador al mínimo, mientras que una carcasa compacta permite un fácil ajuste en casi cualquier carcasa de PC moderna. Los cables con mangas negras y una carcasa con recubrimiento de polvo negro encajan perfectamente en el estilo de su PC.Las fuentes de alimentación de la Serie CV son un buen comienzo para su próxima nueva PC.",
+      "sizes": ["large", "medium", "small"],
+      "specs": {
+        "mark": "Corsair",
+        "factory": "Corsair",
+        "power": "550w",
+        "dimen": "15.01 x 12.5 x 8.61 cm; 1.5kg"
+      },
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/71IvFLgdxUL._AC_SL1500_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/81OC3x38RxL._AC_SL1500_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/81AjzkRNITL._AC_SL1500_.jpg"
+      ],
+      "reviews": [
+        {
+          "stars": 2,
+          "body": "El proveedor me contacto para decirme que tenía problemas con las etiquetas, me ofreció reembolso (mismo que se realizó), así que nunca recibí el producto.",
+          "author": "turtleguyy@example.org",
+          "createdOn": 1397490980837
+        },
+        {
+          "stars": 1,
+          "body": "Me salio super mala, se apagaba a cada rato, pensé que era mi trajeta madre e instale la bios más reciente y en eso se apago y tuve que meterme en mas cosas para recuperar la tarjeta madre, pudo dañar toda la pc, si van a comprar una fuente de poder les recomiendo EVGA 220-G3-0550-Y1. Muy mal producto que pone en riesgo toda la computadora y es super difícil descubrir si realmente es la fuente de poder porque no te da ningún aviso como lo descubrí fue cambiando a otra fuente de poder y eso soluciono todo.",
+          "author": "LouisW407@example.org",
+          "createdOn": 1397490980837
+        },
+        {
+          "stars": 2,
+          "body": "En lo personal con respecto al costo calidad es muy malo, ya que hay otros mas economicos que son mucho mejores, en lo que respecta a este genera ruidos electronicos, estoy pensando seriamente en cambiarlo ya que me da la sensacion de que pudiera dañar mi equipo de computo",
+          "author": "nat@example.org",
+          "createdOn": 1397490980837
+        }
+      ]
+    },
+    {
+      "_id": "iuLTbS54543wiXGrZ",
+      "name": "16Gb RAM DDR4",
+      "solded": 68,
+      "description": "HyperX RAM Fury RGB 16GB 3200Mhz DDR4 CL16 UDIMM Gamer Memoria Para PC Color RGB (HX432C16FB3A/16)",
+      "price": 2600,
+      "plan": "12*83.33$ meses sin intereses",
+      "favorite": false,
+      "long_description": "HyperX® FURY DDR4 RGB1 ofrece una mejora de rendimiento y estilo con velocidades de hasta 3733MHz2, estilo audaz e iluminación RGB a lo largo del módulo para efectos más suaves y llamativos. Esta impresionante actualización de bajo costo está disponible en velocidades 2400MHz-3733MHz, latencias CL15–19, capacidades de módulo simple de 4GB-32GB y capacidades de kit de 16GB-128GB. Cuenta con overclocking automático Plug N Play a velocidades de 2400MHz y 2666MHz y es compatible tanto para Intel XMP-ready como para Ready for Ryzen. HyperX FURY DDR4 RGB mantiene fría a tu máquina con su elegante disipador de calor y de bajo consumo. 100% testeada a la velocidad publicada y con una garantía de por vida; es una actualización fácil y sin problemas para tu sistema basado en Intel o AMD. 1. Iluminación personalizable con el software HyperX NGENUITY o con el software de control RGB de la placa madre. El soporte para la personalización de RGB a través de software de otros fabricantes puede variar. 2. La memoria Plug N Play de HyperX trabajará en los sistemas DDR4 a la velocidad permitida por el fabricante del BIOS. PnP no puede aumentar la velocidad de la memoria del sistema por encima de la velocidad permitida por el fabricante del BIOS. Los productos HyperX Plug N Play DDR4 soportan especificaciones XMP 2.0, por lo tanto es posible lograr el overclocking activando el perfil incorporado XMP.",
+      "sizes": ["large", "medium", "small"],
+      "specs": {
+        "mark": "HyperX",
+        "factory": "HiperX",
+        "power": "1.2 voltios",
+        "dimen": "13.34 x 0.7 x 4.12 cm; 82.34g"
+      },
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51frgZN9ohL._AC_SL1038_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/51QSw-aS4oL._AC_SL1200_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/411pwuIdECL._AC_SL1200_.jpg"
+      ],
+      "reviews": [
+        {
+          "stars": 2,
+          "body": "Viene disfrazada de 3200 MHz Pero es de 2400mhz y cuando en verdad la configuras a 3200mhz marca inestabilidad del sistema y no deja usar la PC.",
+          "author": "turtleguyy@example.org",
+          "createdOn": 1397490980837
+        },
+        {
+          "stars": 2,
+          "body": "Una de las memorias no funciona bien esta defectuosa, me das pantallazos azules y no permite que inicie el ordenador Actualización: Después de solicitar el remplazo del modulo funcionan perfecto los dos módulos de 16 gb a su frecuencia de 3200 mhz, los tiempos para renderizar y comprimir/descomprimir archivos están a otro nivel :')",
+          "author": "LouisW407@example.org",
+          "createdOn": 1397490980837
+        },
+        {
+          "stars": 1,
+          "body": "Muy mala experiencia, esta tarjeta daño la computadora, lamentablemente no fue al inicio sino hasta pasado el mes!!!, aparte del gasto de la tarjeta de memoria, la reparacion de la computadora y paso el tiempo de devolucion !!! Para que tengan cuidado el especialista dijo que fisicamente la tarjeta esta bien pero mal del sistema!! Perdi mucha informacion y dinero!!!!!!",
+          "author": "nat@example.org",
+          "createdOn": 1397490980837
+        }
+      ]
+    }
+  ]
 }

@@ -1,9 +1,33 @@
+<!DOCTYPE html>
 <div class="row" ng-controller="Products as prods">
   <div class="col-lg-8 mx-auto">
     <ul class="list-group">
+      <div class="form-group form-row">
+        <div class="mr-4">
+          <span for="findName"> Buscar por nombre: </span>
+          <input
+            id="findName"
+            type="text"
+            ng-model="products.name"
+            class="form-control"
+            placeholder="Ingrese el nombre"
+          />
+        </div>
+        <div>
+          <span for="findPrice"> Buscar por precio: </span>
+          <input
+            id="findPrice"
+            type="text"
+            ng-model="products.price"
+            class="form-control"
+            placeholder="Ingrese el precio"
+          />
+        </div>
+      </div>
+
       <li
         class="list-group-item"
-        ng-repeat="p in prods.products"
+        ng-repeat="p in prods.products | filter: products"
         ng-click="prods.go(p._id)"
       >
         <div class="media align-items-lg-center flex-column flex-lg-row">
